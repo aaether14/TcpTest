@@ -1,0 +1,6 @@
+package aae_pipe;
+
+message Message {
+  required string msg = 1;
+  required int32 code = 2;
+}
